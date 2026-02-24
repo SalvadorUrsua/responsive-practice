@@ -1,0 +1,48 @@
+.section-how {
+  margin: 4.8rem 0;
+}
+
+.step-num {
+  font-size: 5.2rem;
+  font-weight: 600;
+  filter: brightness(0);
+  opacity: 20%;
+  line-height: 1;
+}
+
+.step-img-box {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.step-img-box::before,
+.step-img-box::after {
+  display: block;
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.step-img-box::before {
+  width: 60%;
+  padding-bottom: 60%;
+  background-color: #fdf2e9;
+  z-index: -2;
+  opacity: 45%;
+}
+
+.step-img-box::after {
+  width: 45%;
+  padding-bottom: 45%;
+  background-color: #f8d8bd;
+  z-index: -1;
+  opacity: 45%;
+}
+
+.step-img {
+  width: 35%;
+}

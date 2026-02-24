@@ -1,0 +1,23 @@
+/* SECTION FEATURED */
+.section-featured {
+  padding: 4.8rem 3.2rem;
+  align-items: center;
+}
+
+.featured-subheading {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 2.4rem;
+  color: #888;
+}
+
+.featured-logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.featured-logo {
+  height: 3.2rem;
+}

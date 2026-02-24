@@ -1,0 +1,280 @@
+/* WORKING COPY */
+/* 
+html {
+  font-size: 62.5%;
+}
+
+* {
+  font-family: "Rubik", sans-serif;
+  line-height: 1.6;
+  color: #555;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+}
+
+.section-hero {
+  background-color: #fdf2e9;
+  padding: 9.6rem 0;
+}
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
+}
+
+.section-title {
+  font-size: 4.4rem;
+  line-height: 1.1;
+  letter-spacing: -0.9px;
+  color: #333;
+}
+
+.hero-description {
+  font-size: 2rem;
+  margin-block: 3.2rem 6.4rem;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  font-size: 2.4rem;
+  font-weight: 700;
+  padding: 1.2rem 2.4rem;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  color: #fff;
+  background-color: #e67e22;
+}
+
+.btn--full:hover,
+.btn--full:active {
+  background-color: #cf711f;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  background-color: #fff;
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: #fdf2e9;
+  box-shadow: inset 0 0 0 3.5px #fff;
+}
+
+.delivered-meals {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 2.4rem;
+  margin-block: 9.6rem 0;
+}
+
+.delivered-imgs img {
+  width: 4.8rem;
+  height: 4.8rem;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+
+.delivered-imgs img:not(:last-child) {
+  margin-right: -2rem;
+}
+
+.delivered-text {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.delivered-text span {
+  color: #cf711f;
+  font-weight: 700;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.margin-right-sm {
+  margin-right: 2rem;
+}
+
+*/
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  font-family: "Rubik", sans-serif;
+  line-height: 1.6;
+  color: #555;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+}
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 2.4rem;
+  padding: 4.8rem;
+  background-color: #fdf2e9;
+}
+
+.header-logo {
+  height: 100%;
+}
+
+.header-nav {
+  display: flex;
+  justify-self: space-between;
+  align-items: center;
+  gap: 3.6rem;
+}
+
+.header-nav a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.header-nav a:last-child {
+  background-color: #e67e22;
+  color: #fff;
+  padding: 0.8rem 3.2rem;
+  border-radius: 8px;
+}
+
+.header-nav a:not(:last-child):link,
+.header-nav a:not(:last-child):visited {
+  transition: all 0.3s;
+}
+
+.header-nav a:not(:last-child):hover,
+.header-nav a:not(:last-child):active {
+  color: #e67e22;
+}
+
+.header-nav a:last-child:link,
+.header-nav a:last-child:visited {
+  transition: all 0.3s;
+}
+
+.header-nav a:last-child:hover,
+.header-nav a:last-child:active {
+  background-color: #cf711f;
+}
+
+/* SECTION HERO */
+.section-hero {
+  background-color: #fdf2e9;
+  padding: 4.8rem 9.6rem 9.6rem 9.6rem;
+}
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
+}
+
+.section-title {
+  font-size: 4.4rem;
+  line-height: 1.1;
+  letter-spacing: -0.9px;
+  color: #333;
+}
+
+.hero-description {
+  font-size: 2rem;
+  margin-block: 3.2rem 6.4rem;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 1.2rem 2.4rem;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  color: #fff;
+  background-color: #e67e22;
+}
+
+.btn--full:hover,
+.btn--full:active {
+  background-color: #cf711f;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  background-color: #fff;
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: #fdf2e9;
+  box-shadow: inset 0 0 0 3.5px #fff;
+}
+
+.delivered-meals {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 2.4rem;
+  margin-block: 9.6rem 0;
+}
+
+.delivered-imgs img {
+  width: 4.8rem;
+  height: 4.8rem;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+
+.delivered-imgs img:not(:last-child) {
+  margin-right: -2rem;
+}
+
+.delivered-text {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.delivered-text span {
+  color: #cf711f;
+  font-weight: 700;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.margin-right-sm {
+  margin-right: 2rem;
+}
