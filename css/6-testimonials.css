@@ -1,7 +1,6 @@
 .section-testimonials {
   display: grid;
   grid-template-columns: 55fr 45fr;
-  /* margin: 9.6rem 0; */
   align-items: center;
   background-color: #fdf2e9;
 }
@@ -10,11 +9,11 @@
   padding: 9.6rem;
 }
 
-.testimonials {
+/* .testimonials {
   display: grid;
   row-gap: 4.8rem;
-  column-gap: 8rem;
-}
+  column-gap: 9.6rem;
+} */
 
 .testimonial-img {
   width: rem;

@@ -1,6 +1,282 @@
-@media (max-width: 412px) {
-  .hero-text-box {
-    font-size: 4.4rem !important;
-    color: blue;
+/* 1350 / 16 = 84em */
+
+/* @media (max-width: em){ */
+/* header */
+
+/* hero */
+
+/* featured */
+
+/* how */
+
+/* meals */
+
+/* testimonials */
+
+/* pricing */
+
+/* cta */
+
+/* footer */
+/* } /* 
+
+
+
+/* BELOW 1344px (smaller desktops) */
+@media (max-width: 84em) {
+  /* header */
+
+  /* hero */
+  .hero {
+    max-width: 120rem;
   }
+
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+
+  /* featured */
+
+  /* how */
+
+  /* meals */
+
+  /* testimonials */
+  .testimonials-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* pricing */
+
+  /* cta */
+
+  /* footer */
 }
+
+/* BELOW 1200px (landscape tablets) */
+@media (max-width: 75em) {
+  html {
+    /* 10/16 = 62.5% */
+    /* 9/16 =  56.25% */
+    font-size: 56.25%;
+  }
+
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+
+  .heading-tertiary {
+    font-size: 2.4rem;
+    /* margin-bottom: 2.4rem; */
+  }
+
+  .grid {
+    /* display: grid; */
+    row-gap: 6.4rem;
+    column-gap: 4.8rem;
+  }
+
+  /* header */
+  .header {
+    padding: 0 3.2rem;
+  }
+
+  .header-nav {
+    gap: 3.2rem;
+  }
+
+  /* hero */
+  .hero {
+    gap: 4.8rem;
+  }
+
+  /* featured */
+
+  /* how */
+
+  /* meals */
+
+  /* testimonials */
+  .testimonials-box {
+    padding: 9.6rem 3.2rem;
+  }
+
+  .testimonials-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* pricing */
+
+  /* cta */
+
+  /* footer */
+}
+
+/* BELOW 1040px  (Tablets */
+@media (max-width: 65em) {
+  html{
+font-size: 50%;
+  }
+
+  /* header */
+
+
+  /* hero */
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 0 8rem;
+    gap: 6.4rem
+  }
+
+  .hero-text-box,
+  .hero-img-box {
+    text-align: center;
+  }
+
+ .hero-text-box {
+ width: 80%;
+ margin:0 auto;
+ }
+
+.delivered-meals {
+  justify-content: center;
+  margin-top: 3.2rem;
+}
+
+  .hero-img {
+    width: 75%;
+  }
+  
+
+  /* featured */
+  .featured-logo {
+    height: 2.4rem;
+  }
+  
+  /* how */
+  /* .how-boxes{
+    grid-template-columns: 1fr;
+  }
+
+  .how-box-2{
+    grid-row: 1;
+  }
+
+  .how-box-6{
+    grid-row: 5;
+  }
+
+  .step-num {
+    font-size: 7.4rem;} */
+
+
+  /* meals */
+  .meal-details {
+    padding: 2.4rem 3.2rem 4.8rem 3.2rem;
+  }
+  
+  /* testimonials */
+  .section-testimonials {
+    grid-template-columns:1fr;
+  }
+
+  .testimonials-gallery{
+    grid-template-columns: repeat(6, 1fr);
+  }
+  
+  /* pricing */
+  .list-item{
+    line-height: 1.2;
+  }
+
+  .plan-complete::after {
+    top: 6%;
+    right: -38%;
+  }
+
+  /* cta */
+  .cta-grid {
+    grid-template-columns: 60fr 40fr;
+  }
+
+  .cta-form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-form-grid{
+  gap: 2.4rem;
+  }
+
+  .heading-secondary{
+    margin-bottom: 2.4rem;
+  }
+
+  .cta-text {
+    margin-bottom: 4.8rem;
+  }
+
+  .cta-form-grid label {
+    margin-bottom: 0.8rem;
+  }
+  .form-btn{
+    margin-top: 2rem;
+  }
+  
+  /* footer */
+}
+
+/* 916px / 16px = 57em */
+@media (max-width: 57em){
+  html {
+    font-size: 43.75%;
+  }
+/* header */
+
+/* hero */
+
+/* featured */
+
+/* how */
+
+/* meals */
+
+/* testimonials */
+
+/* pricing */
+
+/* cta */
+
+/* footer */
+ } 
+
+
+/* 
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 
+
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+
+/* 1350 / 16 = 84em */
+
+/* @media (max-width: em){ */
+/* header */
+
+/* hero */
+
+/* featured */
+
+/* how */
+
+/* meals */
+
+/* testimonials */
+
+/* pricing */
+
+/* cta */
+
+/* footer */
+/* } /* 

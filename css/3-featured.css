@@ -20,4 +20,6 @@
 
 .featured-logo {
   height: 3.2rem;
+  filter: brightness(0);
+  opacity: 50%;
 }

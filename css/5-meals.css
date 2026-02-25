@@ -23,7 +23,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 1.6rem 4.8rem 4.8rem 4.8rem;
+  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
 }
 
 .meal-type {
@@ -39,7 +39,7 @@
 }
 
 .meal-type span:nth-child(1) {
-  background-color: #add6ad;
+  background-color: #92cd28;
   padding: 0.6rem 1.2rem;
   border-radius: 20px;
   font-size: 1.2rem;

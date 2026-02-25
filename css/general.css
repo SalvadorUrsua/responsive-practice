@@ -66,12 +66,6 @@ body {
   color: #e67e22;
 }
 
-.section-description {
-  margin: 3.2rem 0 8rem 0;
-  font-size: 2rem;
-  letter-spacing: 0.9px;
-}
-
 .heading-primary,
 .heading-secondary,
 .heading-tertiary {
@@ -113,15 +107,16 @@ body {
 }
 
 .list-item {
-  font-size: 2rem;
+  font-size: 1.8rem;
   display: flex;
   align-items: center;
-  gap: 0.8rem;
+  gap: 1.6rem;
 }
 
 .list-icon {
   color: #e67e22;
-  font-size: 3rem;
+  width: 3rem;
+  height: 3rem;
 }
 
 .btn {
@@ -162,7 +157,6 @@ body {
   color: #fdf2e9;
   align-self: end;
   padding: 0.8em;
-  /* line-height: 1; */
   border: none;
   font-weight: 700;
   transition: all 0.3s;
@@ -171,7 +165,6 @@ body {
   cursor: pointer;
   font-family: inherit;
   border-radius: 9px;
-  /* line-height: 1.2; */
 }
 
 .btn--form:hover {
