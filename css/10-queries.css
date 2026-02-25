@@ -1,0 +1,6 @@
+@media (max-width: 412px) {
+  .hero-text-box {
+    font-size: 4.4rem !important;
+    color: blue;
+  }
+}
