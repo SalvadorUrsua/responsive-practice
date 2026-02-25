@@ -225,8 +225,8 @@ font-size: 50%;
   /* footer */
 }
 
-/* 916px / 16px = 57em */
-@media (max-width: 57em){
+/* 816px / 16px = 51em */
+@media (max-width: 51em){
   html {
     font-size: 43.75%;
   }
@@ -237,18 +237,148 @@ font-size: 50%;
 /* featured */
 
 /* how */
+.how-boxes {
+  grid-template-columns: 1fr;
+  width: 70%;
+}
+
+.how-box-2{
+  grid-row: 1;
+}
+.how-box-6{
+  grid-row: 5;
+}
+
 
 /* meals */
+.meals-boxes {
+  column-gap: 2.4rem;
+}
 
 /* testimonials */
 
 /* pricing */
+.pricing-plan {
+  padding: 3.2rem;
+  width: 90%;
+  }
+
+.plan-complete::after {
+  top: 6%;
+  right: -42%;
+}
 
 /* cta */
 
 /* footer */
  } 
 
+ /* 640px / 16px = 40em */
+ @media (max-width: 40em){
+  /* 6 / 16 = 37.5% */
+  html{
+    font-size: 37.5%;
+  }
+  .section-meals .meals-boxes {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-bottom: 0;
+  }
+
+  .meal-1 {
+    grid-column: 1 / 4;
+  }
+
+  .meal-2 {
+    grid-column: 4 / 7;
+  }
+
+  .meal-diets{
+    grid-column: 3 / 5;
+    border-radius: 11px;
+    column-gap:3.2rem;
+    /* text-align: center; */
+  }
+
+  .plan-complete::after {
+    top: 6%;
+    right: -37%;
+  }
+ }
+/* 480px / 16px = 30em */
+ @media (max-width: 30em){
+  html{
+    font-size: 31.25%;
+  }
+  /* header */
+
+  /* hero */
+  
+  /* featured */
+  
+  /* how */
+  
+  /* meals */
+  
+  /* testimonials */
+  
+  /* pricing */
+  .plan-box{
+    grid-template-columns: 1fr;
+  }
+
+  .pricing-plan {
+    padding: 3.2rem;
+    width: 60%;
+    }
+
+  .grid {
+    column-gap: 3.2rem;
+  }
+
+  .plan-starter, .plan-complete{
+    justify-self: center;
+  }
+  .plan-complete::after {
+    top: 8%;
+    right: -40%;
+  }
+
+  .features{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  /* cta */
+  
+  /* footer */
+  .footer-cols{
+    grid-template-columns: repeat(6, 1fr) !important;
+  }
+
+  .account-col{
+    grid-column: 1 / 3;
+    grid-row: 1;
+  }
+  .company-col{
+    grid-column: 3 / 5;
+    grid-row: 1;
+  }
+
+  .recipes-col{
+    grid-column: 5 / -1;
+    grid-row: 1;
+  }
+
+.logos{
+  grid-column: 1 / 4;
+  grid-row: 2;
+}
+
+.contacts{
+  grid-column: 4 / -1;
+  grid-row: 2;
+}
+ }
 
 /* 
 FONT SIZE SYSTEM (px)
