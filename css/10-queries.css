@@ -380,6 +380,14 @@ font-size: 50%;
   }
 }
 
+/*  416px / 16 = 26 */
+@media (max-width: 26em){
+  .plan-complete::after {
+    top: 8%;
+    right: -33%;
+  }
+}
+
 /* 384px / 16px = 24em */
  @media (max-width: 24em){
   html{
