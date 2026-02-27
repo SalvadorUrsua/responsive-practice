@@ -115,7 +115,7 @@
 /* BELOW 1040px  (Tablets */
 @media (max-width: 65em) {
   html{
-    font-size: 50%;
+    /* font-size: 50%; */
   }
 
   /* header */
