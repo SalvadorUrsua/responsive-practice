@@ -115,13 +115,38 @@
 /* BELOW 1040px  (Tablets */
 @media (max-width: 65em) {
   html{
-font-size: 50%;
+    font-size: 50%;
   }
 
   /* header */
+  .header-nav {
+    display: none;
+  }
+
+  .btn-mobile-nav {
+    display: block;
+  }
+
+  .nav-open {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    opacity: 92%;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .nav-link:link,
+  .nav-link:visited {
+    font-size: 4rem;
+  }
 
 
-  /* hero */
+   /* hero */
   .hero {
     grid-template-columns: 1fr;
     padding: 0 8rem;
@@ -336,9 +361,11 @@ font-size: 50%;
     column-gap: 3.2rem;
   }
   
-  .plan-starter, .plan-complete{
+  .plan-starter, 
+  .plan-complete{
     justify-self: center;
   }
+
   .plan-complete::after {
     top: 8%;
     right: -40%;
