@@ -25,6 +25,7 @@
   <link rel="stylesheet" href="css/8-cta.css">
   <link rel="stylesheet" href="css/9-footer.css">
   <link rel="stylesheet" href="css/10-queries.css">
+
 </head>
 
 <body>
@@ -33,12 +34,16 @@
       <img class="header-logo" src="img/omnifood-logo.png" alt="Omnifood logo">
     </a>
     <nav class="header-nav">
-      <a href="#" class="nav-link nav-how">How it works</a>
-      <a href="#" class="nav-link nav-meals">Meals</a>
-      <a href="#" class="nav-link nav-testimonials">Testimonials</a>
-      <a href="#" class="nav-link nav-pricing">Pricing</a>
-      <a href="#" class="nav-link nav-try">Try for free</a>
+      <a href="#how" class="nav-link nav-how" onclick="clearMenu(this)">How it works</a>
+      <a href="#meals" class="nav-link nav-meals" onclick="clearMenu(this)">Meals</a>
+      <a href="#testimonials" class="nav-link nav-testimonials" onclick="clearMenu(this)">Testimonials</a>
+      <a href="#pricing" class="nav-link nav-pricing" onclick="clearMenu(this)">Pricing</a>
+      <a href="#cta" class="nav-link nav-try" onclick="clearMenu(this)">Try for free</a>
     </nav>
+    <button type="d" class="btn-mobile-nav">
+      <ion-icon name="menu" class="icon-mobile-nav" onclick="showMenu()"></ion-icon>
+      <ion-icon name="close" class="icon-mobile-nav" onclick="hideMenu()"></ion-icon>
+    </button>
   </header>
   <main>
     <section class="section-hero">
@@ -85,7 +90,7 @@
     </section>
     <section class="section-how">
       <div class="container">
-        <p class="subheading">How it works</p>
+        <p class="subheading" id="how">How it works</p>
         <h2 class="heading-secondary">Your daily dose of health in 3 simple steps</h2>
       </div>
       <div class="container grid grid--2-cols grid--center-v how-boxes">
@@ -127,7 +132,7 @@
     </section>
     <section class="section-meals">
       <div class="container texts-center">
-        <p class="subheading">Meals</p>
+        <p class="subheading" id="meals">Meals</p>
         <h2 class="heading-secondary">Omnifood AI chooses from 5,000+ recipes</h2>
       </div>
       <div class="meals-boxes container grid grid--3-cols">
@@ -183,7 +188,7 @@
     </section>
     <section class="section-testimonials">
       <div class="testimonials-box">
-        <p class="subheading">Testimonials</p>
+        <p class="subheading" id="testimonials">Testimonials</p>
         <h2 class="heading-secondary">Once you try it, you can't go back.</h2>
         <div class="testimonials grid grid--2-cols">
           <div class="testimonial">
@@ -256,7 +261,7 @@
     </section>
     <section class="section-pricing container">
       <div class="container">
-        <p class="subheading">Pricing</p>
+        <p class="subheading" id="pricing">Pricing</p>
         <h2 class="heading-secondary">Eating well without breaking the bank</h2>
       </div>
       <div class="container grid grid--2-cols margin-bottom-md plan-box">
@@ -346,7 +351,7 @@
       <div class="container">
         <div class="cta-grid">
           <div class="cta-box">
-            <h2 class="heading-secondary">Get your first meal for free!</h2>
+            <h2 class="heading-secondary" id="cta">Get your first meal for free!</h2>
             <p class="cta-text">
               Healthy, tasty and hassle-free meals are waiting for you. Start eating well today. You can cancel or pause
               anytime. And the first meal is on us!
@@ -437,7 +442,15 @@
     </div>
   </footer>
 
+  <script src="js/scripts.js" defer></script>
   <!-- <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script> -->
+
+  <!-- <script>
+    function showMenu() {
+      const header = document.querySelector(".header-nav");
+      header.classList.add("show-menu");
+    }
+  </script> -->
 </body>
 
 </html>
