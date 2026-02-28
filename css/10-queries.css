@@ -300,11 +300,11 @@
 /* footer */
  } 
 
- /* 640px / 16px = 40em */
- @media (max-width: 768px){
+/* 768 / 16 = 48 */
+ @media (max-width: 48em){
   .plan-complete::after {
     top: 6%;
-    right: -35%;
+    right: -36%;
   }
  }
 
