@@ -140,10 +140,10 @@
   }
 
   .menu-open .header-nav{
-    opacity: 1;
-    pointer-events: auto;
-    visibility: visible;
-    transform: translateX(0);
+    opacity: 1; /* to make it visible on the website */
+    pointer-events: auto; /* to allow pointer events */
+    visibility: visible; /* to make it visible to application readers */
+    transform: translateX(0); /* to move the menu from right to left: 0 */
   }
 
   .header-nav a:link{
@@ -301,6 +301,15 @@
  } 
 
  /* 640px / 16px = 40em */
+ @media (max-width: 768px){
+  .plan-complete::after {
+    top: 6%;
+    right: -35%;
+  }
+ }
+
+
+ /* 640px / 16px = 40em */
  @media (max-width: 40em){
   /* 6 / 16 = 37.5% */
   html{
@@ -430,6 +439,7 @@
   .hero{
     /* padding: 0 6.4rem; */
   }
+
 .delivered-meals{
   flex-direction: column;
 }
@@ -456,10 +466,10 @@
   /* testimonials */
   
   /* pricing */
-  .plan-complete::after {
+  /* .plan-complete::after {
     top: 8%;
     right: -40%;
-  }
+  } */
 
 
   /* cta */
@@ -468,12 +478,13 @@
 }
 
 /* 368px / 16px = 24em */
- @media (max-width: 23em){
+ /* @media (max-width: 23em){ */
+ /* @media (max-width: 411px){
   .plan-complete::after {
     top: 6%;
     right: -40%;
   }
- }
+ } */
 /* 
 FONT SIZE SYSTEM (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 
