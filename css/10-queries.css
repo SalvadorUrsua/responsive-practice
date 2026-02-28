@@ -466,6 +466,14 @@
   
   /* footer */ 
 }
+
+/* 368px / 16px = 24em */
+ @media (max-width: 23em){
+  .plan-complete::after {
+    top: 6%;
+    right: -40%;
+  }
+ }
 /* 
 FONT SIZE SYSTEM (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 

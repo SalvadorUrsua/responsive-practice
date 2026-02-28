@@ -34,15 +34,17 @@
       <img class="header-logo" src="img/omnifood-logo.png" alt="Omnifood logo">
     </a>
     <nav class="header-nav">
-      <a href="#how" class="nav-link nav-how" onclick="clearMenu(this)">How it works</a>
-      <a href="#meals" class="nav-link nav-meals" onclick="clearMenu(this)">Meals</a>
-      <a href="#testimonials" class="nav-link nav-testimonials" onclick="clearMenu(this)">Testimonials</a>
-      <a href="#pricing" class="nav-link nav-pricing" onclick="clearMenu(this)">Pricing</a>
-      <a href="#cta" class="nav-link nav-try" onclick="clearMenu(this)">Try for free</a>
+      <a href="#how" class="nav-link nav-how">How it works</a>
+      <a href="#meals" class="nav-link nav-meals">Meals</a>
+      <a href="#testimonials" class="nav-link nav-testimonials">Testimonials</a>
+      <a href="#pricing" class="nav-link nav-pricing">Pricing</a>
+      <a href="#cta" class="nav-link nav-try">Try for free</a>
     </nav>
-    <button type="d" class="btn-mobile-nav">
-      <ion-icon name="menu" class="icon-mobile-nav" onclick="showMenu()"></ion-icon>
-      <ion-icon name="close" class="icon-mobile-nav" onclick="hideMenu()"></ion-icon>
+    <button class="btn-mobile-nav">
+      <ion-icon name="menu" class="icon-mobile-nav nav-menu" onclick="showMenu()"></ion-icon>
+      <ion-icon name="close" class="icon-mobile-nav nav-close" onclick="hideMenu()"></ion-icon>
+      <!-- <ion-icon name="menu" class="icon-mobile-nav nav-menu"></ion-icon>
+      <ion-icon name="close" class="icon-mobile-nav nav-close"></ion-icon> -->
     </button>
   </header>
   <main>
@@ -407,9 +409,6 @@
               <li><a class="nav-link" href="tel:">415-201-6370</a></li>
               <li><a class="nav-link" href="mailto:">hello@omnifood.com</a></li>
             </ul>
-            <!-- <p></p>
-            <p></p>
-            <p></p> -->
           </address>
         </div>
         <nav class="nav-col account-col">
