@@ -246,6 +246,6 @@ body {
   display: none;
 } */
 
-.nav-close {
+.btn-mobile-nav .icon-mobile-nav[name="close"] {
   display: none;
 }
