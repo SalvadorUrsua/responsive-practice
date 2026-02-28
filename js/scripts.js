@@ -17,3 +17,5 @@ linkButton.forEach((e) => {
     header.classList.remove("menu-open");
   });
 });
+
+alert(window.innerWidth);
