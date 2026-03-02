@@ -1,0 +1,123 @@
+.section-pricing {
+  /* margin: 9.6rem 0; */
+  margin-top: 9.6rem !important;
+}
+
+.plan-header {
+  text-align: center;
+  margin-bottom: 3.6rem;
+}
+
+.plan-name {
+  text-transform: uppercase;
+  color: #e67e22;
+  margin-bottom: 3rem;
+  font-weight: 600;
+  letter-spacing: -0.1rem;
+}
+.plan-price {
+  font-size: 6.2rem;
+  font-weight: 700;
+  color: #333;
+  line-height: 1;
+  margin-bottom: 1.6;
+}
+
+.plan-text {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: #2e1907;
+}
+
+.plan-benefits {
+  list-style: none;
+  justify-self: center;
+  font-size: 1.6rem;
+  letter-spacing: -0.8px;
+}
+
+.pricing-plan {
+  align-items: center;
+  padding: 4.8rem;
+  border-radius: 11px;
+  width: 75%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.plan-price span {
+  font-size: 4.2rem;
+  color: #555;
+  font-weight: 500;
+  margin-right: 1.2rem;
+}
+
+.plan-starter {
+  border: 2px solid #fdf2e9;
+  justify-self: end;
+  padding-top: 4.6rem;
+  display: flex;
+}
+
+.plan-complete {
+  background-color: #fdf2e9;
+  position: relative;
+  overflow: hidden;
+  color: #2e1907;
+  display: flex;
+}
+
+.plan-complete::after {
+  content: "BEST VALUE";
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.4rem;
+  padding: 0.4rem 15rem;
+  background-color: #d9e622;
+  position: absolute;
+  top: 7%;
+  right: -36%;
+  color: #333;
+  transform: rotate(45deg);
+}
+
+.list-item strong {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.plan-sign-up {
+  text-align: center;
+  margin-top: 3rem;
+  justify-content: end;
+}
+
+.feature-icon {
+  font-size: 1.8rem;
+  width: 3rem;
+  height: 3rem;
+  color: #e67e22;
+  border-radius: 50%;
+  background-color: #fdf2e9;
+  padding: 0.8rem;
+}
+
+.spiel-text {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #333;
+  margin-block: 1rem 2rem;
+}
+
+.feature-description {
+  font-size: 2rem;
+}
+
+.included {
+  text-align: center;
+}
+
+.plan-starter .list-icon {
+  height: 3.2rem;
+}
